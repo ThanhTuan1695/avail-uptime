@@ -1,6 +1,6 @@
 #!/bin/bash
 
-COMMAND="YOUR_AVAIL_COMMAND_RUN_ON_VPS"
+COMMAND="curl -sL1 avail.sh | bash -s -- --identity /root/identity.toml"
 
 # Vòng lặp vô hạn để chạy và theo dõi tiến trình
 while true; do
